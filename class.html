@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script src="js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="text-align: center">Team Finder</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4 style="text-align: center">Add A Class/Competition</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4 style="text-align: center">Add A Class</h4>
+      </div>
+    </div>
+    
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-1">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="class" checked>
+                    Class
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-1">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="competition">
+                    Competition
+                  </label>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-4">
+                <select class="form-control">
+                  <option>Spring 2014</option>
+                  <option>Fall 2014</option>
+                  <option>Winter 2014</option>
+                  <option>Spring 2015</option>
+                  <option>Fall 2015</option>
+                  <option>Winter 2016</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-12">
+                <label for="class_name" class="col-md-2 control-label">Class Name</label>
+                  <input type="string" class="form-control" id="class_name" placeholder="KIEI 925">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-12">
+                <label for="max_team_size" class="col-md-2 control-label">Maximum Team Size</label>
+                  <input type="integer" class="form-control" id="max_team_size" placeholder="5">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="class.html" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span>Add Another Class</a>
+                <p></p>   
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="results.html" class="btn btn-success"><span class="glyphicon glyphicon-zoom-in"></span>Find Your Team</a>
+                <p></p>   
+              </div>
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
